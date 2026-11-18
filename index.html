@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Experiência de aprendizagem interativa sobre o Plano de Gestão do Conselho da Justiça Federal para o biênio 2026–2028.">
+  <title>Plano de Gestão CJF 2026–2028 | Da estratégia à ação</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Plano de Gestão CJF, início">
+      <span class="brand-mark" aria-hidden="true">CJF</span>
+      <span><strong>Plano de Gestão</strong><small>Conselho da Justiça Federal · 2026–2028</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Seções <span aria-hidden="true">☰</span></button>
+    <nav id="main-nav" class="main-nav" aria-label="Navegação principal">
+      <a href="#mapa">Mapa</a><a href="#eixos">Seis eixos</a><a href="#sustentacao">Sustentação</a><a href="#cultura">Cultura</a><a href="#fechamento">Fechamento</a>
+    </nav>
+  </header>
+  <div class="reading-progress" aria-label="Progresso visual de leitura"><progress id="page-progress" max="100" value="0">0%</progress><span id="progress-label">Início</span></div>
+
+  <main id="conteudo">
+    <section id="inicio" class="hero observe-section">
+      <div class="hero-copy">
+        <p class="eyebrow">Experiência de aprendizagem · leitura estratégica</p>
+        <h1>Da estratégia à ação pública</h1>
+        <p class="hero-lede">Explore como o Plano de Gestão do CJF 2026–2028 conecta governança, transformação institucional e valor público.</p>
+        <div class="hero-meta"><span>6 eixos estratégicos</span><span>4 perspectivas BSC</span><span>1 pilar de sustentação</span></div>
+        <a class="primary-link" href="#mapa">Começar percurso <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-visual" aria-label="Ilustração abstrata: uma estratégia conecta capacidade institucional a valor público" role="img">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="node node-core">Valor<br>público</div>
+        <div class="node node-a">Governança</div><div class="node node-b">Pessoas</div><div class="node node-c">Tecnologia</div><div class="node node-d">Sociedade</div>
+        <div class="connector connector-a"></div><div class="connector connector-b"></div><div class="connector connector-c"></div><div class="connector connector-d"></div>
+      </div>
+    </section>
+
+    <section class="intro-band">
+      <div><p class="eyebrow">Pergunta orientadora</p><h2>Como a coordenação interna se transforma em resultado visível para o cidadão?</h2></div>
+      <p>O plano apresenta uma visão de gestão e organiza as prioridades em perspectivas, eixos e capacidades de sustentação. Leia cada camada perguntando: <strong>que contribuição ela oferece e de que depende para acontecer?</strong></p>
+    </section>
+
+    <section id="mapa" class="content-section observe-section">
+      <div class="section-heading"><div><p class="eyebrow">01 · A arquitetura</p><h2>Um mapa, quatro perspectivas</h2></div><p>O Balanced Scorecard organiza os objetivos em quatro perspectivas encadeadas. Selecione uma para ver os eixos associados no documento.</p></div>
+      <div id="perspective-grid" class="perspective-grid"></div>
+      <div id="perspective-detail" class="perspective-detail" aria-live="polite"></div>
+      <aside class="callout callout-blue"><span class="callout-icon" aria-hidden="true">↗</span><div><strong>Como ler o encadeamento</strong><p>O mapa é uma estrutura de alinhamento: resultados para a sociedade dependem de processos e coordenação, pessoas e inovação, sustentados por recursos e governança. A página apresenta essa lógica como síntese de leitura, não como avaliação de resultados já alcançados.</p></div></aside>
+    </section>
+
+    <section id="eixos" class="content-section section-tinted observe-section">
+      <div class="section-heading"><div><p class="eyebrow">02 · Prioridades de gestão</p><h2>Seis eixos, diferentes contribuições</h2></div><p>Explore o propósito e as ações prioritárias. Os nomes e as formulações foram resumidos a partir das páginas 9–14 do plano.</p></div>
+      <div id="axis-tabs" class="axis-tabs" role="tablist" aria-label="Eixos estratégicos"></div>
+      <div id="axis-panel" class="axis-panel" role="tabpanel" tabindex="0" aria-live="polite"></div>
+      <noscript><p>Ative JavaScript para explorar os eixos nesta página.</p></noscript>
+    </section>
+
+    <section id="sustentacao" class="content-section observe-section">
+      <div class="section-heading"><div><p class="eyebrow">03 · Condições de execução</p><h2>O pilar que sustenta os seis eixos</h2></div><p>A estratégia depende de arranjos organizacionais, integração administrativa, governança orçamentária, segurança e infraestrutura.</p></div>
+      <div class="support-intro"><span class="support-symbol" aria-hidden="true">+</span><p><strong>Pilar de Sustentação — Recursos, Infraestrutura e Governança.</strong> O documento o apresenta como condição de viabilidade operacional para executar os seis eixos.</p></div>
+      <div id="support-grid" class="support-grid"></div>
+      <div class="microcycle">
+        <p class="eyebrow">Leitura de interdependência</p>
+        <h3>Uma prioridade não se executa isoladamente</h3>
+        <p>Ao analisar uma ação, identifique a unidade responsável, os parceiros, os recursos, a governança, os riscos e a evidência de resultado. Essa leitura transforma uma lista de iniciativas em uma hipótese de execução verificável.</p>
+      </div>
+    </section>
+
+    <section id="cultura" class="content-section section-dark observe-section">
+      <div class="section-heading"><div><p class="eyebrow">04 · Cultura institucional</p><h2>Integração também é aprendizagem mútua</h2></div><p>O plano trata a cultura como ativo intangível que sustenta a execução dos seis eixos e propõe ampliar conhecimento e pertencimento entre CJF e STJ.</p></div>
+      <div class="culture-layout"><div class="culture-statement"><span class="quote-mark" aria-hidden="true">“</span><p>Conhecer missão, estrutura e resultados de cada instituição ajuda a criar alinhamento cultural e senso de pertencimento.</p><small>Síntese da política de integração institucional · p. 19</small></div><div id="culture-activities" class="culture-activities"></div></div>
+    </section>
+
+    <section id="atividade" class="content-section observe-section">
+      <div class="section-heading"><div><p class="eyebrow">05 · Prática de leitura</p><h2>Conecte uma necessidade à estratégia</h2></div><p>Use o cenário para praticar a leitura do mapa. A atividade é formativa, sem nota e sem registro das respostas.</p></div>
+      <div class="scenario-card">
+        <div class="scenario-number">DESAFIO</div>
+        <div class="scenario-body"><h3>Uma unidade quer reduzir demandas judiciais evitáveis por meio de articulação entre instituições e negociação antes do processo.</h3><p>Qual eixo é o ponto de partida mais diretamente relacionado a essa necessidade?</p>
+          <div id="scenario-options" class="scenario-options"></div>
+          <div id="scenario-feedback" class="scenario-feedback" aria-live="polite" hidden></div>
+        </div>
+      </div>
+      <details class="reflection">
+        <summary>Agora amplie a análise: o que mais seria necessário para executar essa prioridade?</summary>
+        <div><p>Considere perspectiva BSC, parceiros, instrumentos normativos, capacidade, dados, recursos, riscos e indicador de resultado. O plano prevê, no anexo, responsáveis, prazos trimestrais, indicadores, instrumentos normativos, riscos e recursos para as entregas.</p><p>Não há resposta única para a análise de execução. O objetivo é explicitar dependências e evidências, não adivinhar decisões que o documento não detalha.</p></div>
+      </details>
+      <p class="privacy-note"><span aria-hidden="true">◇</span> As escolhas permanecem apenas nesta sessão da página. Não há pontuação, envio de respostas ou persistência de progresso.</p>
+    </section>
+
+    <section id="fechamento" class="closing observe-section">
+      <div class="closing-main"><p class="eyebrow">06 · Considerações finais</p><h2>Da coordenação interna à coordenação ecossistêmica</h2><p class="closing-vision">A visão para 2026–2028 é consolidar o CJF como órgão central de governança, inteligência e integração da Justiça Federal, transformando coordenação interna em coordenação ecossistêmica visível ao cidadão.</p></div>
+      <div class="closing-details">
+        <article><span>01</span><h3>Execução incremental</h3><p>Gestão ágil, entregas incrementais, transparência ativa e monitoramento permanente dos indicadores de resultado.</p></article>
+        <article><span>02</span><h3>Acompanhar entregas</h3><p>O anexo prevê cronogramas com marcos trimestrais e indicadores mensuráveis vinculados aos objetivos.</p></article>
+        <article><span>03</span><h3>Definir responsabilidade</h3><p>Unidades e gestores responsáveis por cada entrega, com instrumentos normativos necessários.</p></article>
+        <article><span>04</span><h3>Considerar condições</h3><p>Riscos e estimativas de recursos devem acompanhar cada projeto.</p></article>
+      </div>
+      <div class="takeaway"><strong>Ideia para levar ao trabalho</strong><p>Uma prioridade estratégica fica mais clara quando conseguimos explicar sua contribuição pública, sua dependência de outras áreas e a evidência que mostrará avanço.</p></div>
+      <details class="source-note"><summary>Sobre a fonte e a adaptação</summary><div><p>Base: <em>Plano de Gestão do Conselho da Justiça Federal, biênio 2026–2028</em>, páginas impressas 3–20. Esta experiência sintetiza o conteúdo até as Considerações Finais e não incorpora o anexo detalhado de execução.</p><p>A página não reproduz integralmente as 20 páginas, não valida a execução das iniciativas e não substitui o documento oficial. Consulte o plano original para decisões, responsabilidades e formulações completas.</p></div></details>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span>Experiência de aprendizagem não oficial · conteúdo derivado do plano fornecido</span><a href="#inicio">Voltar ao início ↑</a></footer>
+</body>
+</html>
